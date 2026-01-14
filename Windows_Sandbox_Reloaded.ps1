@@ -232,7 +232,7 @@ function Refresh-Status {
 
     if ($IsContextInstalled) {
         $ToggleContext.IsChecked = $true
-        $StatusContext.Text = "Status: Integrated (Background Menu)"
+        $StatusContext.Text = "Status: Integrated (Context Menu)"
         $StatusContext.Foreground = $Res["GreenBrush"]
     } else {
         $ToggleContext.IsChecked = $false

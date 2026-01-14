@@ -18,7 +18,7 @@ Windows Sandbox is a fantastic feature, but mounting folders usually requires ma
 
 <p align="center">
   <img src="images/screenshot1.png" width="45%" />
-  <img src="images/screenshot2.png" width="35%" />
+  <img src="images/screenshot2.png" width="20%" />
 </p>
 
 
