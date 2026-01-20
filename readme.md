@@ -39,8 +39,17 @@ Windows Sandbox is a fantastic feature, but mounting folders usually requires ma
 
 ### Installation & Usage
 
-1. Download the latest `Windows_Sandbox_Reloaded.ps1` from the **[Releases Page](https://github.com/osmanonurkoc/Windows_Sandbox_Reloaded/releases/latest)**.
-2. Right-click the file and select **Run with PowerShell**.
+#### Option 1: Using the Executable (Recommended)
+1. Download the latest `Windows_Sandbox_Reloaded.exe` from the **[Releases Page](https://github.com/osmanonurkoc/Windows_Sandbox_Reloaded/releases/latest)**.
+2. Double-click `Windows_Sandbox_Reloaded.exe` to run.
+
+#### Option 2: Running the Script (For Developers)
+1. Download the source code.
+2. Right-click `Windows_Sandbox_Reloaded.ps1` and select **Run with PowerShell**.
+   * *Note:* If you encounter an Execution Policy error, run this command in PowerShell once:
+     ```powershell
+     Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+     ```
    * *Note:* Requires **Administrator** privileges to enable features and modify the Registry.
 3. Use the switches to enable the Sandbox Feature or the Context Menu integration.
 
